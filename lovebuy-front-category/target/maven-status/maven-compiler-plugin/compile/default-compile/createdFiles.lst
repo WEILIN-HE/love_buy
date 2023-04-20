@@ -1,0 +1,6 @@
+com\jcut\category\controller\CategoryController.class
+com\jcut\category\controller\CategoryAdminController.class
+com\jcut\category\mapper\CategoryMapper.class
+com\jcut\category\service\CategoryService.class
+com\jcut\category\CategoryApplication.class
+com\jcut\category\service\impl\CategoryServiceImpl.class

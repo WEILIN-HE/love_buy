@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jcut.order.mapper.OrderMapper">
+    <select id="selectAdminOrder" resultType="com.jcut.vo.AdminOrderVo">
+        select order_id,user_id,order_time,count(product_id) product_num,sum(product_num) order_num,sum(product_price*product_num) order_price from orders group by order_id limit #{offset},#{pageSize};
+    </select>
+</mapper>

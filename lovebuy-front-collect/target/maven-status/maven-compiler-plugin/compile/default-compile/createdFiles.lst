@@ -1,0 +1,5 @@
+com\jcut\collect\controller\CollectController.class
+com\jcut\collect\CollectApplication.class
+com\jcut\collect\service\impl\CollectServiceImpl.class
+com\jcut\collect\service\CollectService.class
+com\jcut\collect\mapper\CollectMapper.class

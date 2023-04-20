@@ -1,0 +1,12 @@
+com\jcut\product\service\ProductService.class
+com\jcut\product\config\ProductConfiguration.class
+com\jcut\product\service\impl\ProductServiceImpl.class
+com\jcut\product\ProductApplication.class
+com\jcut\product\controller\ProductCartController.class
+com\jcut\product\listener\ProductRabbitMqListener.class
+com\jcut\product\mapper\ProductMapper.class
+com\jcut\product\controller\ProductAdminController.class
+com\jcut\product\controller\ProductController.class
+com\jcut\product\controller\ProductSearchController.class
+com\jcut\product\controller\ProductCollectController.class
+com\jcut\product\mapper\PictureMapper.class

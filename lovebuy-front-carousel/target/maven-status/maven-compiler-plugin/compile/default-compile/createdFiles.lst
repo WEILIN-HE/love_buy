@@ -1,0 +1,6 @@
+com\jcut\carousel\CarouselApplication.class
+com\jcut\carousel\mapper\CarouselMapper.class
+com\jcut\carousel\service\CarouselService.class
+com\jcut\carousel\service\impl\CarouselServiceImpl.class
+com\jcut\carousel\controller\CarouselController.class
+com\jcut\carousel\config\CarouselConfiguration.class

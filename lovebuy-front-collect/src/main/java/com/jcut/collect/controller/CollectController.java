@@ -1,0 +1,43 @@
+package com.jcut.collect.controller;
+
+import com.jcut.collect.service.CollectService;
+import com.jcut.pojo.Collect;
+import com.jcut.utils.R;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * @Author:何炜霖
+ * @DateTime: 2023/3/20 22:00
+ **/
+@RestController
+@RequestMapping("collect")
+public class CollectController {
+    @Autowired
+    private CollectService collectService;
+
+    @PostMapping("save")
+    public R save(@RequestBody Collect collect){
+
+        return collectService.save(collect);
+    }
+
+    @PostMapping("list")
+    public R list(@RequestBody Collect collect){
+
+        return collectService.list(collect.getUserId());
+    }
+    @PostMapping("remove")
+    public R remove(@RequestBody Collect collect){
+
+        return collectService.remove(collect);
+    }
+    @PostMapping("remove/product")
+    public R removeByPid(@RequestBody Integer productId){
+
+        return collectService.removeByPid(productId);
+    }
+}

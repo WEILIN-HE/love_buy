@@ -1,0 +1,11 @@
+com\jcut\user\service\UserService.class
+com\jcut\user\controller\UserController.class
+com\jcut\user\UserApplication.class
+com\jcut\user\controller\AddressController.class
+com\jcut\user\mapper\UserMapper.class
+com\jcut\user\service\AddressService.class
+com\jcut\user\config\UserConfiguration.class
+com\jcut\user\mapper\AddressMapper.class
+com\jcut\user\controller\UserAdminController.class
+com\jcut\user\service\impl\AddressServiceImpl.class
+com\jcut\user\service\impl\UserServiceImpl.class
